@@ -158,3 +158,11 @@
     width: 22px;
   }
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .app { padding: 24px; }
+}
+
+@media (max-width: 767px) {
+  .app { padding: 16px; }
+}
