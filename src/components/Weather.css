@@ -161,14 +161,16 @@
 
 @media (max-width: 1024px) {
   .weather {
-    margin: 10px;  /* Slight gap for tablet */
+    margin: 10px;        /* Slight gap for tablet */
     padding: 30px;
+    border-radius: 16px; /* Add rounded corners */
   }
 }
 
 @media (max-width: 767px) {
   .weather {
-    margin: 8px;  /* Slight gap for mobile */
+    margin: 8px;         /* Slight gap for mobile */
     padding: 20px;
+    border-radius: 12px; /* Slightly smaller corner radius for mobile */
   }
 }
