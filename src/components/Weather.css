@@ -159,10 +159,16 @@
   }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
-  .app { padding: 24px; }
+@media (max-width: 1024px) {
+  .weather {
+    margin: 10px;  /* Slight gap for tablet */
+    padding: 30px;
+  }
 }
 
 @media (max-width: 767px) {
-  .app { padding: 16px; }
+  .weather {
+    margin: 8px;  /* Slight gap for mobile */
+    padding: 20px;
+  }
 }
