@@ -176,16 +176,7 @@
 
 @media (max-width: 767px) {
   html, body {
-    height: 100%;
     overflow-x: hidden;
-    overflow-y: hidden; /* Prevent vertical scroll */
-    position: relative;
+    overflow-y: hidden; /* 🚫 Prevent vertical scroll */
   }
-
-  .weather {
-    height: 100vh; /* Fill the full mobile screen height */
-    overflow: hidden;
-  }
-
-  /* (keep the rest of your styles unchanged...) */
 }
